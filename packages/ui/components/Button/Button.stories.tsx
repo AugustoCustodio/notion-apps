@@ -17,11 +17,3 @@ Primary.args = {
   border: 1,
   variant: 'contained',
 }
-export const Secondary = Template.bind({})
-Secondary.args = {
-  children: 'Text Button',
-  color: 'primary',
-  size: 'medium',
-  variant: 'outlined',
-  border: 1
-}
