@@ -10,6 +10,7 @@ const notion_style = {
     '&:hover': {
         backgroundColor: 'primary',
         color: 'white',
+        backgroundColor: 'rgb(46 140 220)',
     },
 }
 
