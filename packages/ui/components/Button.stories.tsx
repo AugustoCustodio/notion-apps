@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react'
 
 export default {
   title: 'Atoms/Button',
-  component: Button
+  component: Button,
 } as Meta
 
 const Template: Story = (args) => <Button {...args} />;
