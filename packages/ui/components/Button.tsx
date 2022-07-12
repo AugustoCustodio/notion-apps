@@ -8,7 +8,6 @@ const notion_style = {
     borderRadius: '3px',
     textTransform: 'none',
     '&:hover': {
-        backgroundColor: 'primary',
         color: 'white',
         backgroundColor: 'rgb(46 140 220)',
     },
