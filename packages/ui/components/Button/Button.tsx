@@ -1,5 +1,4 @@
 import { Button as MuiButton } from '@mui/material'
-import { Children } from 'react'
 
 interface Props {
     variant?:
@@ -11,6 +10,8 @@ interface Props {
     | 'medium'
     | 'large'
 
+    color?: 'primary' | 'secondary' | 'inherit'
+    
     children?: React.ReactNode
 }
 
@@ -18,6 +19,6 @@ const reset_styles = {
     textTransform: 'none',
 }
     
-const Button = ({ ...props }: Props) =><MuiButton color='primary' sx={reset_styles} disableElevation {...props}>{Children}</MuiButton>
+const Button = ({ ...props }: Props) =><MuiButton color='primary' sx={reset_styles} disableElevation {...props}/>
 
 export default Button
