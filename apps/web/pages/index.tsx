@@ -1,7 +1,9 @@
 import { Button } from "ui";
 
-export default function Web() {
-  return ( 
+export default function Docs() {
+  return (
+    <div>
       <Button>We come back latter</Button>
+    </div>
   );
 }
